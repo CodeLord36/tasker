@@ -20,7 +20,6 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-      <p>Welcome to our Web app</p>
     </BrowserRouter>
   );
 }
